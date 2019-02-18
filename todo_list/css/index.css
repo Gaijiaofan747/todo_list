@@ -1,0 +1,101 @@
+html, body {
+  height: 100%;
+}
+
+html .content .button-box, body .content .button-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+html .content .button-box button, body .content .button-box button {
+  margin-left: 10px;
+}
+
+html .footer-box, body .footer-box {
+  width: 100vw;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+html .footer-box li, body .footer-box li {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 80px;
+}
+
+html .footer-box .circle-all, body .footer-box .circle-all {
+  border-color: green;
+  color: green;
+}
+
+html .footer-box .circle-all.circle-bg, body .footer-box .circle-all.circle-bg {
+  background: green;
+  color: #fff;
+}
+
+html .footer-box .circle-primary, body .footer-box .circle-primary {
+  border-color: blue;
+  color: blue;
+}
+
+html .footer-box .circle-primary.circle-bg, body .footer-box .circle-primary.circle-bg {
+  background: blue;
+  color: #fff;
+}
+
+html .footer-box .circle-danger, body .footer-box .circle-danger {
+  border-color: red;
+  color: red;
+}
+
+html .footer-box .circle-danger.circle-bg, body .footer-box .circle-danger.circle-bg {
+  background: red;
+  color: #fff;
+}
+
+html .mask-box, body .mask-box {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+html .mask-box .mask-bg, body .mask-box .mask-bg {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+html .mask-box .mask-content, body .mask-box .mask-content {
+  width: 80%;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+html .mask-box .mask-content p, body .mask-box .mask-content p {
+  padding: 10px;
+  color: #0894ec;
+}
+
+html .mask-box .mask-content button, body .mask-box .mask-content button {
+  width: 90px;
+  margin: 10px;
+  margin-top: -15px;
+}
